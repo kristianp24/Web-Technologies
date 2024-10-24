@@ -140,7 +140,7 @@ console.log(myArrO.find(item => item.isActive))
 // verififca daca unul singur indeplineste conditia respectiva
 console.log(myArrO.some(item => item.isActive))
 
-// opusul de sum, nu e bine de folosit ca pargurge tot arrayul
+// opusul de some, nu e bine de folosit ca pargurge tot arrayul
 console.log(myArrO.every(item => item.isActive))
 
 // map - similiar cu select din SQL
